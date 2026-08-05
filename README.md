@@ -1,4 +1,4 @@
-# Delivery Prediction and Resource Optimization
+# Delivery Time Prediction and Resource Optimization
 
 An end-to-end **predictive and prescriptive analytics** project for estimating last-mile delivery times, identifying orders at risk of delay, and optimizing vehicle assignment and order batching using a **Mixed-Integer Linear Program (MILP)**.
 
