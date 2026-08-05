@@ -745,39 +745,6 @@ Baseline versus optimized trips, distance, and simulated cost.
 
 ---
 
-## Interview Summary
-
-> I built an end-to-end last-mile delivery decision system using more than 43,000 orders. I engineered temporal and geospatial features, used KNN-based preprocessing, and benchmarked multiple regression models under chronological validation. Histogram Gradient Boosting achieved a 17.66-minute test MAE and an \(R^2\) of 0.81. I then created historical SLA benchmarks and delay-risk classes. Finally, I generated feasible two- and three-order delivery batches and formulated a set-partitioning MILP that minimized fixed vehicle cost, route cost, and predicted lateness while assigning every order exactly once. Under simulated operational assumptions, the optimized policy reduced trips by 5.82%, route distance by 4.75%, and cost by 4.03%.
-
----
-
-## Resume Version
-
-```latex
-\cventry{}
-  {Last-Mile Delivery Prediction \& Resource Optimization}
-  {Machine Learning, Forecasting \& Operations Research}
-  {}
-  {}
-  {
-    \begin{itemize}
-      \item Built and benchmarked an end-to-end
-            \textbf{delivery-time prediction pipeline} for
-            \textbf{43K+ orders} using geospatial, traffic, temporal,
-            vehicle, and product features; \textbf{Histogram Gradient
-            Boosting} achieved a \textbf{17.66-minute MAE} and
-            \textbf{$R^{2} = 0.81$} under chronological validation.
-      \item Developed historical \textbf{SLA-risk segmentation} and
-            formulated a \textbf{set-partitioning MILP} for vehicle
-            assignment and batching of up to \textbf{3 compatible orders},
-            reducing simulated trips by \textbf{5.82\%}, route distance by
-            \textbf{4.75\%}, and operating cost by \textbf{4.03\%}.
-    \end{itemize}
-  }
-```
-
----
-
 ## Disclaimer
 
 This project is an independent academic and portfolio project based on a public dataset. It is not an official Amazon system, and the simulated operational outcomes should not be interpreted as measured Amazon business results.
